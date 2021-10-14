@@ -21,6 +21,6 @@ ComplexHeatmap
 
 ### Running the code
 
-- Download the "relaxed" loom file from SCOPE (https://scope.aertslab.org/#/FlyCellAtlas) named `r_fca_biohub_testis_10x.loom` from SCOPE and put it in the testis directory
+- Download the "relaxed" loom file from SCOPE (https://scope.aertslab.org/#/FlyCellAtlas) named `r_fca_biohub_testis_10x.loom` and put it in the testis directory
 - Run the scripts in the testis directory in order
 - Run the scripts in spermatocytes, spermatids or cysts directories
