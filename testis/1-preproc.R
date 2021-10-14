@@ -3,7 +3,8 @@ library(Seurat)
 library(hdf5r)
 library(tidyverse)
 
-setwd("testis")
+setwd(rprojroot::find_root(rprojroot::is_git_root))
+setwd('testis/')
 
 # download the v1 loom file from SCOPE
 lfile <- connect(("r_fca_biohub_testis_10x.loom"), mode = "r", skip.validate = T)
