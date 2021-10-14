@@ -2,7 +2,6 @@ library(loomR)
 library(Seurat)
 library(hdf5r)
 library(tidyverse)
-library(assertthat)
 
 setwd("testis")
 
