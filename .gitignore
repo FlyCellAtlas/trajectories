@@ -2,7 +2,7 @@
 .Rhistory
 .RData
 .Ruserdata
-.rds
-.loom
-gut
-.pdf
+*.rds
+*.loom
+gut/
+*.pdf
