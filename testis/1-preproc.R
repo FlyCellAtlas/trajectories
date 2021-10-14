@@ -6,7 +6,7 @@ library(tidyverse)
 setwd("testis")
 
 # download the v1 loom file from SCOPE
-lfile <- connect(("v1_fca_biohub_testis_10x.loom"), mode = "r", skip.validate = T)
+lfile <- connect(("r_fca_biohub_testis_10x.loom"), mode = "r", skip.validate = T)
 
 counts <- lfile[["matrix"]][,]
 
